@@ -8,7 +8,9 @@ import MyNavbar from './components/myNavbar/myNavbar.component';
 import MyCarousel from './components/my-carousel/my-carousel.component';
 import TitleMessage from './components/title-message/title-message.component';
 import About from './pages/about/about.component';
+import Experience from './pages/experience/experience.component';
 import Skills from './pages/skills/skills.component';
+
 
 import './App.css';
 
@@ -31,12 +33,24 @@ const App = () => {
             </Container>
          </Parallax>
       </div>
+
+      <div>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <Skills />
         </Slide>
       </Container>
+      </div>
+
+      <div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Experience />
+        </Slide>
+      </Container>
+      </div>
     </div>
   );
 }
