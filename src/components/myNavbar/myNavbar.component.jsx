@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-// import Logo from "../../assets/icons/logo1.png";
+// import Logo from "../../assets/icons/logo2.png";
 import "./myNavabr.style.css";
 
 const MyNavbar = () => {
@@ -15,7 +15,8 @@ const MyNavbar = () => {
       >
         <div>
           <Navbar.Brand href="#home">
-             <Nav.Link>Samsun Nahar Samon</Nav.Link>
+             <Nav.Link  href="#home">SamoFolio</Nav.Link>
+             {/* <img src={Logo} className="logo" alt=""/> */}
           </Navbar.Brand>
         </div>
         <div>
