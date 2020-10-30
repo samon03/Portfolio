@@ -13,12 +13,15 @@ import Skills from './pages/skills/skills.component';
 import TimeLine from './components/projects-timeline/projects-timeline.component';
 import Footer from './components/footer/footer.component';
 
+// import Particles from 'react-particles-js';
+// import {particlesOptions} from './particlesOptions';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App" style={{position: "relative"}}>
       <MyNavbar/>
+         {/* <Particles className="particles particles-box" params={particlesOptions}/>  */}
       <MyCarousel/>
       <TitleMessage/>
 
