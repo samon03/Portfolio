@@ -24,27 +24,29 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-4 my-details rounded">
-                                Hi there! I am <strong>&nbsp;Samsun Nahar Samon</strong>
-                                <br />A passionate Web Developer, born and brought up in Bangladesh. 
+                                Hi there! My name is <strong>&nbsp;Samon</strong>
+                                <br />I'm a passionate Full Stack Developer, born and brought up in Bangladesh. 
                                 <br/>
-                                I am a Full Stack Web Developer with Node.js, Express.js, Angular.js and MongoDB as my tech stack.
+                                I have successfully completed my Graduation in <strong>Computer Science and Engineering (CSE)</strong> from United International University .
                                 <br />
-                                In 2019, I successfully completed my Engineering in <strong>Computer Science and Engineering (CSE)</strong> from United International University .
-                                <br />
-                                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                                <br />
-                                I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                                I was a Software Engineer Intern at Shuttle Bangladesh.
+                                <br/>
+                                I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and 
+                                leverage them to solve real-life problems. 
+                                <br/>
+                                Currently i'm working on some of my own projects.
                                 <br />
                             </Row>
                             <Row>
                                 <Col className="d-flex justify-content-center flex-wrap">
-                                <div>
-                                        <a href="#contact">
-                                        <Button className="m-2" variant="outline-primary">
+                                   <div>
+                                        <a href="mailto:samon3123@gmail.com" target="_blank" rel="noopener noreferrer">
+                                        <Button className="m-2" variant="outline-danger" title="samon3123@gmail.com">
                                             Let's talk
                                         </Button>
                                         </a>
                                     </div>
+
                                     <div>
                                         <a href="https://drive.google.com/file/d/1HahHaVUZ5KqUdl8Dq2OlQ-GnC44_6KBZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-success">

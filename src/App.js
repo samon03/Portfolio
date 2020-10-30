@@ -11,6 +11,7 @@ import About from './pages/about/about.component';
 import Experience from './pages/experience/experience.component';
 import Skills from './pages/skills/skills.component';
 import TimeLine from './components/projects-timeline/projects-timeline.component';
+import Footer from './components/footer/footer.component';
 
 import './App.css';
 
@@ -60,7 +61,10 @@ const App = () => {
         </Slide>
       </Container>
       </div>
-
+      
+      <hr />
+      <Footer />
+      
     </div>
   );
 }
