@@ -20,3 +20,25 @@
       transform: translateY(0rem);
     }
   }
+
+  @media only screen and (max-width: 600px) {
+     .nav-link 
+    {
+      display: inline-grid;
+      padding: 0.8rem 1rem;
+    }
+    .navbar-toggler
+    {
+      display: inline-grid;
+      justify-content: flex-end !important; 
+    } 
+    .justify-content-between 
+    {
+      justify-content: center !important; 
+      text-align: center; 
+    }
+    .logo
+    {
+      display: none;
+    } 
+  }

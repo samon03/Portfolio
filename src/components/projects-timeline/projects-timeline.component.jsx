@@ -10,7 +10,9 @@ import L_VIEW from "../../assets/icons/forward-arrow.png";
 import L_KEEP from "../../assets/img/projects/Keep.png";
 import L_Chat from "../../assets/img/projects/chat.png";
 import L_Mate from "../../assets/img/projects/TravelMate.png";
-import L_Drop from "../../assets/img/projects/dri.png";
+import L_Drop from "../../assets/img/projects/DriDrop.png";
+import L_Landing from "../../assets/img/projects/LangingPage.png";
+import L_Pro from "../../assets/img/projects/ProUI.png";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -57,10 +59,10 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/Keep-MEAN" target="_new">
+                 <a href="https://github.com/samon03/Keep-MEAN" target="_blank" rel="noopener noreferrer">
                     <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
-                 <a href="https://keep-mean.herokuapp.com/" target="_new">
+                 <a href="https://keep-mean.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
               </div>
@@ -102,16 +104,104 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/Chat-Room" target="_new">
+                 <a href="https://github.com/samon03/Chat-Room" target="_blank" rel="noopener noreferrer">
                     <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
-                 <a href="https://chat-room-22.herokuapp.com" target="_new">
+                 <a href="https://chat-room-22.herokuapp.com" target="_blank" rel="noopener noreferrer">
                     <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
               </div>
             </div>
-          </ImageEvent>    
+          </ImageEvent>  
 
+          {/* Landing page */}
+
+          <ImageEvent
+            className="text-center"
+            text="Landing page"
+            src={L_Landing}
+            alt="Landing page"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-center">
+                      <Card.Body>
+                        <strong>Description:</strong>
+                        <br/>
+                        Converting landing page template PSD to HTML.
+                        <hr />
+                        <strong>Tech used:</strong>
+                           <p> HTML. CSS, Javascript and Bootstrap </p>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                 <a href="https://github.com/samon03/landing-page-" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+                 <a href="https://samon03.github.io/landing-page-/" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+              </div>
+            </div>
+        </ImageEvent>
+
+          {/* ProUI */}
+
+          <ImageEvent
+            className="text-center"
+            text="ProUI"
+            src={L_Pro}
+            alt="ProUI"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-center">
+                      <Card.Body>
+                        <strong>Description:</strong>
+                        <br/>
+                          Converting dashboard PSD to HTML.
+                        <hr />
+                        <strong>Tech used:</strong>
+                           <p> HTML. CSS, Javascript and Bootstrap </p>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                 <a href="https://github.com/samon03/ProUI" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+                 <a href="https://wonderful-mestorf-1fbadf.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+              </div>
+            </div>
+        </ImageEvent>
+          
     {/* DriDrop */}
 
         <ImageEvent
@@ -147,10 +237,10 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/DriDrop" target="_new">
+                 <a href="https://github.com/samon03/DriDrop" target="_blank" rel="noopener noreferrer">
                     <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
-                 {/* <a href="https://travel-mate-00.herokuapp.com" target="_new">
+                 {/* <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
                     <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a> */}
               </div>
@@ -192,16 +282,15 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/TravelMate-PHP" target="_new">
+                 <a href="https://github.com/samon03/TravelMate-PHP" target="_blank" rel="noopener noreferrer">
                     <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
-                 <a href="https://travel-mate-00.herokuapp.com" target="_new">
+                 <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
                     <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
               </div>
             </div>
           </ImageEvent>
-        
         
         </Events>
       </Timeline>

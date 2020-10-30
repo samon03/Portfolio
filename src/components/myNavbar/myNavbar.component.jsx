@@ -13,7 +13,7 @@ const MyNavbar = () => {
         expand="md"
         className="animate-navbar nav-theme justify-content-between"
       >
-        <div>
+        <div className="logo">
           <Navbar.Brand href="#home">
              <Nav.Link  href="#home">SamoFolio</Nav.Link>
              {/* <img src={Logo} className="logo" alt=""/> */}
@@ -22,7 +22,7 @@ const MyNavbar = () => {
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto ">
+            <Nav className="mr-auto nav-items">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
