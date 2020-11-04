@@ -39,25 +39,11 @@ const About = () => {
                             </Row>
                             <Row>
                                 <Col className="d-flex justify-content-center flex-wrap">
-                                   <div>
-                                        <a href="mailto:samon3123@gmail.com" target="_blank" rel="noopener noreferrer">
-                                        <Button className="m-2" variant="outline-danger" title="samon3123@gmail.com">
-                                            Let's talk
-                                        </Button>
-                                        </a>
-                                    </div>
-
+                                
                                     <div>
-                                        <a href="https://drive.google.com/file/d/1HahHaVUZ5KqUdl8Dq2OlQ-GnC44_6KBZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://drive.google.com/file/d/1Z0Jema-Hv2qzetnOtuyTYHSO32d32VdH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-success">
                                             Resume
-                                        </Button>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="https://github.com/samon03/" target="_blank" rel="noopener noreferrer">
-                                        <Button className="m-2" variant="outline-dark">
-                                            GitHub
                                         </Button>
                                         </a>
                                     </div>
@@ -65,6 +51,13 @@ const About = () => {
                                         <a href="https://linkedin.com/in/samsun-nahar-samon-06409a147/" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-info">
                                             LinkedIn
+                                        </Button>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://github.com/samon03/" target="_blank" rel="noopener noreferrer">
+                                        <Button className="m-2" variant="outline-dark">
+                                            GitHub
                                         </Button>
                                         </a>
                                     </div>

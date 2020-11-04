@@ -6,7 +6,8 @@ import Image from "react-bootstrap/Image";
 import L_GIT from "../../assets/icons/github-1.svg";
 import L_VIEW from "../../assets/icons/forward-arrow.png";
 
-// projects
+// projects 
+import L_Portfolio from "../../assets/img/projects/Portfolio.png";
 import L_KEEP from "../../assets/img/projects/Keep.png";
 import L_Chat from "../../assets/img/projects/chat.png";
 import L_Mate from "../../assets/img/projects/TravelMate.png";
@@ -25,6 +26,48 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+           {/* Project: Portfolio */}
+        <ImageEvent
+            className="text-center"
+            text="Portfolio"
+            src={L_Portfolio}
+            alt="Portfolio"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-center">
+                      <Card.Body>
+                        <strong>Description:</strong>
+                        <br/>
+                            This is my portfolio where you can know me and can watch my recent projects live demo or github link.
+                        <hr />
+                        <strong>Tech used:</strong>
+                           <p> React-Bootstrap </p>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                 <a href="https://github.com/samon03/React-Bootstarp-Portfolio" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+                 <a href="https://samon03.github.io/React-Bootstarp-Portfolio" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+              </div>
+            </div>
+          </ImageEvent>
         {/* Project: Todo List With MUI */}
         <ImageEvent
             className="text-center"
@@ -48,7 +91,7 @@ const TimeLine = () => {
                       <Card.Body>
                         <strong>Description:</strong>
                         <br/>
-                            Google's Keep Clone This app is almost similars to Google's keep app. 
+                            Google's Keep Clone This app is almost similar to Google's keep app. 
                             It can save the notes with titles.
                         <hr />
                         <strong>Tech used:</strong>
@@ -285,9 +328,9 @@ const TimeLine = () => {
                  <a href="https://github.com/samon03/TravelMate-PHP" target="_blank" rel="noopener noreferrer">
                     <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
                  </a>
-                 <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                 {/* <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
                     <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
-                 </a>
+                 </a> */}
               </div>
             </div>
           </ImageEvent>
