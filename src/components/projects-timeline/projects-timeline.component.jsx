@@ -10,10 +10,10 @@ import L_VIEW from "../../assets/icons/forward-arrow.png";
 import L_Portfolio from "../../assets/img/projects/Portfolio.png";
 import L_KEEP from "../../assets/img/projects/Keep.png";
 import L_Chat from "../../assets/img/projects/chat.png";
-import L_Mate from "../../assets/img/projects/TravelMate.png";
-import L_Drop from "../../assets/img/projects/DriDrop.png";
 import L_Landing from "../../assets/img/projects/LangingPage.png";
 import L_Pro from "../../assets/img/projects/ProUI.png";
+import L_Netflix from "../../assets/img/projects/Netflix.png";
+import L_Messenger from "../../assets/img/projects/Messenger.png";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -26,6 +26,92 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+              {/* Project: Messenger Clone */}
+        <ImageEvent
+            className="text-center"
+            text="Messenger"
+            src={L_Messenger}
+            alt="Messenger"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-center">
+                      <Card.Body>
+                        <strong>Description:</strong>
+                        <br/>
+                         This app is a clone of Messenger. Where we can send text messages with user names.
+                        <hr />
+                        <strong>Tech used:</strong>
+                           <p> React, HOOKS, Firebase  </p>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                 <a href="https://github.com/samon03/messenger-clone" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+                 <a href="https://messenger-clone-c9d9b.web.app/" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+              </div>
+            </div>
+          </ImageEvent>
+
+              {/* Project: Netflix Clone */}
+        <ImageEvent
+            className="text-center"
+            text="Netflix"
+            src={L_Netflix}
+            alt="Netflix"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-center">
+                      <Card.Body>
+                        <strong>Description:</strong>
+                        <br/>
+                        This is almost the clone of Netflix, it has also the functionality to pop up the trailers when the movie was clicked. For data, I used the TMDB API.
+                        <hr />
+                        <strong>Tech used:</strong>
+                           <p> React, HOOKS, TMDB API, Firebase </p>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                 <a href="https://github.com/samon03/netfilx-clone" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+                 <a href="https://netflix-clone-17da6.web.app/" target="_blank" rel="noopener noreferrer">
+                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
+                 </a>
+              </div>
+            </div>
+          </ImageEvent>
            {/* Project: Portfolio */}
         <ImageEvent
             className="text-center"
@@ -52,7 +138,7 @@ const TimeLine = () => {
                             This is my portfolio where you can know me and can watch my recent projects live demo or github link.
                         <hr />
                         <strong>Tech used:</strong>
-                           <p> React-Bootstrap </p>
+                           <p> React Bootstrap </p>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -244,97 +330,6 @@ const TimeLine = () => {
               </div>
             </div>
         </ImageEvent>
-          
-    {/* DriDrop */}
-
-        <ImageEvent
-            className="text-center"
-            text="DriDrop"
-            src={L_Drop }
-            alt="DriDrop"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-center">
-                      <Card.Body>
-                        <strong>Description:</strong>
-                        <br/>
-                        A platform where you can store your files and share with others. 
-                        Can also post questions.
-                        <hr />
-                        <strong>Tech used:</strong>
-                           <p> Raw PHP, MySQL and Javascript </p>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/DriDrop" target="_blank" rel="noopener noreferrer">
-                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
-                 </a>
-                 {/* <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
-                 </a> */}
-              </div>
-            </div>
-          </ImageEvent>    
-
-        {/* Travel Mate */}
-
-        <ImageEvent
-            className="text-center"
-            text="Travel Mate"
-            src={L_Mate}
-            alt="Travel Mate"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-center">
-                      <Card.Body>
-                        <strong>Description:</strong>
-                        <br/>
-                        An online platform where user/people can find travel mates and 
-                        make groups based on some interest in places.
-                        <hr />
-                        <strong>Tech used:</strong>
-                           <p> Raw PHP, MySQL and Javascript </p>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                 <a href="https://github.com/samon03/TravelMate-PHP" target="_blank" rel="noopener noreferrer">
-                    <Image src={L_GIT} alt="view" className="m-2 p-1" width="30" height="30"></Image>
-                 </a>
-                 {/* <a href="https://travel-mate-00.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                    <Image src={L_VIEW} alt="view" className="m-2 p-1" width="30" height="30"></Image>
-                 </a> */}
-              </div>
-            </div>
-          </ImageEvent>
-        
         </Events>
       </Timeline>
     </div>

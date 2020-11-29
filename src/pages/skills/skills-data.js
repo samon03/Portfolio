@@ -2,7 +2,7 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
-// import L_REACT from "../../assets/img/skills/react.svg";
+import L_REACT from "../../assets/img/skills/react.svg";
 import L_Angular from "../../assets/img/skills/angular.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
@@ -12,6 +12,7 @@ import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_MYSQL from "../../assets/img/skills/mysql-5.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVA from "../../assets/img/skills/java-4.svg";
@@ -58,12 +59,12 @@ export const skills = {
       imgSrc: L_Angular,
       skillName: "Angular JS",
     },
-        // {
-    //   link: "https://reactjs.org/",
-    //   imgAltText: "React JS",
-    //   imgSrc: L_REACT,
-    //   skillName: "React JS",
-    // },
+    {
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
+    },
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -104,6 +105,12 @@ export const skills = {
       imgAltText: "Heroku",
       imgSrc: L_HEROKU,
       skillName: "Heroku",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
     {
       link: "https://pages.github.com/",

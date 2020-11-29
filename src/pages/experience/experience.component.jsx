@@ -30,12 +30,10 @@ const Experience = () => {
                     <strong> Description </strong>
                     <br/>
                     <ul className="text-left">
-                      <li>Done some frontend & backend work given by experienced engineers</li>
                       <li>Assisting team in verifying, developing projects.</li>
-                      <li>Worked with Manager to know the flow of the new projects.
-                      </li>
-                      <li>Learned different technologies by paining with experienced engineers. 
-                      </li>
+                      <li>Worked with Manager to know the flow of the new projects.</li>
+                      <li>Learned different technologies by paining with experienced engineers.</li>
+                      <li>Did some frontend & backend work given by experienced engineers</li>
                       <li>Made some Documentation for the new projects</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
