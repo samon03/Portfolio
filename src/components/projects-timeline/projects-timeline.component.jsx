@@ -30,7 +30,7 @@ const TimeLine = () => {
               {/* Project: Messenger Clone */}
         <ImageEvent
             className="text-center"
-            text="Messenger"
+            text="Messenger Clone"
             src={L_Messenger}
             alt="Messenger"
           >
@@ -73,7 +73,7 @@ const TimeLine = () => {
               {/* Project: Netflix Clone */}
         <ImageEvent
             className="text-center"
-            text="Netflix"
+            text="Netflix Clone"
             src={L_Netflix}
             alt="Netflix"
           >
